@@ -53,3 +53,9 @@ body{
 	background-color: #2FBE70;
 	border: none;
 }
+#last-touch{
+	display: none;
+	text-align: center;
+	margin: 250px 0px;
+	
+}

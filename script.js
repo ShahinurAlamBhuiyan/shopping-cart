@@ -39,5 +39,8 @@ function getInputValue(product) {
     return productInputNum;
 }
 const checkOut = document.getElementById('checkOut').addEventListener("click", function () {
-    alert('Thank you for buying with us.')
+    const firstPage = document.getElementById("first-page");
+    firstPage.style.display = "none";
+    const lastTouch = document.getElementById("last-touch");
+    lastTouch.style.display = "block";
 })
